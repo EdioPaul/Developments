@@ -1,0 +1,31 @@
+list-users:
+  events:
+    - http:
+        method: get
+        path: users
+  handler: src/api/users/list.list
+
+save-user:
+  events:
+    - http:
+        method: post
+        path: users
+  handler: src/api/users/save.save
+
+get-user:
+  handler: src/api/users/get.get
+  events:
+    - http:
+        path: users/{login}
+        method: GET
+        request:
+          parameters:
+            paths:
+              login: true
+
+authenticate-user:
+  events:
+    - http:
+        method: post
+        path: users/authenticate
+  handler: src/api/users/auth.auth

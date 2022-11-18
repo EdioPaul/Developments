@@ -1,0 +1,17 @@
+const javascript = 'javascript'
+const JAVASCRIPT = 'JAVASCRIPT'
+
+console.log('length', javascript.length);
+console.log('charAt', javascript.charAt(4));
+console.log('concat', javascript.concat(' dev'));
+console.log('endsWith', javascript.endsWith('t'));
+console.log('includes', javascript.includes('t'));
+console.log('indexOf', javascript.indexOf('c'));
+console.log('search', javascript.search('r'));
+console.log('slice', javascript.slice(0,4));
+console.log('split', javascript.split(''));
+console.log('startsWith', javascript.startsWith('ja'));
+console.log('substring', javascript.substring(4,6));
+console.log('toLowerCase', JAVASCRIPT.toLowerCase());
+console.log('toUpperCase', javascript.toUpperCase());
+console.log('trim', javascript.trim());

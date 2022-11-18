@@ -1,0 +1,22 @@
+{
+  "name": "http-example",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "serverless offline start --stage local",
+    "unit-test": "mocha --recursive test/unit/",
+    "integration-test": "mocha --recursive test/integration/"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.61.3",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-offline": "^6.0.0-alpha.63"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.20",
+    "yup": "^0.29.1"
+  }
+}

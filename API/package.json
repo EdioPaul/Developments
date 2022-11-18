@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunamarcelabarreto/API-Products-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunamarcelabarreto/API-Products-Backend/issues"
+  },
+  "homepage": "https://github.com/brunamarcelabarreto/API-Products-Backend#readme",
+  "description": ""
+}
